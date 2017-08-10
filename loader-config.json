@@ -5,12 +5,12 @@
   "column_partitions": [
     {
       "begin": 0,
-      "workspace": "/tmp/foo/bar",
+      "workspace": "/private/tmp/foo/bar",
       "array": "baz"
     }
   ],
-  "vid_mapping_file": "sample2vid.json",
-  "callset_mapping_file": "sample2callsets.json",
+  "vid_mapping_file": "/private/tmp/foo/sample2vid.json",
+  "callset_mapping_file": "/private/tmp/foo/sample2callsets.json",
   "size_per_column_partition": 3000000,
   "treat_deletions_as_intervals": false,
   "delete_and_create_tiledb_array": true,
