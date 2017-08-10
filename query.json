@@ -1,0 +1,10 @@
+{
+  "workspace": "/private/tmp/foo/bar",
+  "array": "baz",
+  "vid_mapping_file": "/private/tmp/foo/sample2vid.json",
+  "reference_genome": "💩",
+  "callset_mapping_file": "/private/tmp/foo/sample2callsets.json",
+  "query_column_ranges": [[[0, 17421565]]],
+  "query_attributes": [],
+  "produce_GT_field": true
+}
